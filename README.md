@@ -8,7 +8,7 @@ Note: While the project completed during laboratory hours will not guarantee a p
 
 ## Laboratory Structure
 
-### Lab 1: Introduction (Already Completed)
+### Lab 1: Introduction
 - **Topics**: Java setup, basic syntax.
 - **Project Integration**: 
     - Set up the Java environment and create basic classes for the movie platform.

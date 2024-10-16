@@ -83,15 +83,48 @@ Note: While the project completed during laboratory hours will not guarantee a p
 6. **Documentation**: Both code documentation and an external user manual/README are essential.
 
 ### Grading Criteria:
-- **Originality and Creativity (20%)**: Unique and creative projects beyond the lab examples will score higher.
-- **Core Functionality (30%)**: Proper implementation of required features (OOP, data structures, I/O, exception handling).
-- **User Interface (15%)**: Intuitive and functional user interfaces will be graded higher.
-- **File or Database Integration (15%)**: Projects using databases will be rated higher than those using file systems.
-- **Threading and Concurrency (10%)**: Proper use of threading/concurrency enhances performance.
-- **Documentation (10%)**: Well-documented code and clear user instructions are crucial.
+
+1. **Core Functionality and Lab Integration (50%)**:
+   - **Mandatory Client-Server Architecture**: The project must implement a client-server architecture. The client and server should communicate over sockets or another networking protocol (e.g., HTTP, WebSockets).
+   - **Database Integration**: The server must interact with a database (e.g., H2, MySQL). All data (e.g., user info, app data) must be stored and retrieved from the database. CRUD operations (Create, Read, Update, Delete) must be implemented.
+   - **Object-Oriented Programming (OOP)**: Proper use of OOP principles is mandatory:
+     - Use of classes and inheritance (e.g., for different user roles or objects).
+     - Encapsulation of data and business logic.
+     - Polymorphism and method overriding.
+   - **Advanced Inheritance and Abstraction**: The project must use abstract classes or interfaces to generalize common functionality (e.g., `Media`, `User`, `Product`, etc.), depending on the project type.
+   - **Java Collections**: Proper use of Java collections (e.g., `List`, `Map`, `Set`) to manage data (e.g., catalogs, users, records).
+   - **Exception Handling**: Projects must include robust exception handling for client-server communication, invalid inputs, and database interaction.
+   - **Generics**: The use of generics where applicable, especially in managing collections or data types, is required.
+   - **Multithreading**: The server must support multithreading to handle multiple client requests simultaneously. The client may also use threads for background processes (e.g., fetching data without freezing the UI).
+   - **Networking**: The project must implement networking, using sockets or another networking framework (e.g., REST, WebSockets) to allow communication between client and server.
+
+2. **Originality and Creativity (20%)**:
+   - While the type of application is flexible, the project must demonstrate creativity in its concept and implementation.
+   - Unique features or additional functionalities beyond the core requirements (e.g., real-time updates, data visualizations, custom algorithms) will be rewarded.
+
+3. **User Interface (10%)**:
+   - The project must have a functional and intuitive user interface (JavaFX or another framework) that allows users to interact with the application.
+   - The UI should provide a clear experience for viewing, modifying, or interacting with the app’s data.
+   - Projects with well-designed and responsive GUIs will score higher.
+
+4. **File or Database Integration (10%)**:
+   - The project must use a database to store persistent data (e.g., users, products, orders). It is not enough to use file-based storage.
+   - The database must be integrated with the server, and the client should communicate with the server to perform data operations.
+   - Bonus points will be awarded for using advanced features like relational tables or transactions.
+
+5. **Threading and Concurrency (5%)**:
+   - The server must handle multiple clients using multithreading to support concurrent requests.
+   - Any background tasks in the client (e.g., fetching data from the server) should not block the user interface.
+
+6. **Documentation (5%)**:
+   - Clear and comprehensive documentation, both in the code and external (e.g., README or user manual).
+   - The documentation must explain the architecture (client-server), how to set up and run the project, and provide instructions for using the application.
+   - Detailed API documentation (if applicable) for client-server communication is recommended.
 
 ### Final Project Note:
-The passing grade for the final project is **5.00**. Any grade below 5.00 (e.g., 4.99 or lower) will not be considered passing.
+- **Mandatory Elements**: Every project must include all concepts covered in the lab sessions (client-server architecture, database integration, OOP principles, exception handling, multithreading, networking, and collection usage).
+- **Passing Requirement**: The final project must meet all the above criteria to be considered for a passing grade.
+- The passing grade for the final project is **5.00**. Any grade below 5.00 (e.g., 4.99 or lower) will not be considered passing.
 
 ---
 

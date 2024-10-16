@@ -15,8 +15,6 @@ public abstract class MediaItem {
         this.trailerLink = trailerLink;
     }
 
-    public abstract void play();
-
     public String getTitle() {
         return title;
     }

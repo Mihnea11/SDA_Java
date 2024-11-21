@@ -131,3 +131,61 @@ Note: While the project completed during laboratory hours will not guarantee a p
 ## Important Notes
 - All laboratories will be taught using **IntelliJ IDEA**, but you are free to use any other IDE of your choice.
 - The project completed during lab sessions will **not** be sufficient for a passing grade. You must continue developing the project outside of lab hours to meet the final project requirements.
+
+## How to Write Effective Documentation
+
+### Documentation Structure
+1. **Title Page**:
+   - Project name.
+   - Your name, date, and course details.
+
+2. **Table of Contents**:
+   - A well-structured list of chapters with page numbers or sections.
+
+3. **Introduction**:
+   - Brief overview of the project, its purpose, and objectives.
+   - Mention technologies and tools used.
+
+4. **Setup Instructions**:
+   - Step-by-step instructions for setting up the project.
+   - Include prerequisites (e.g., Java version, database requirements, IDE setup).
+   - How to run the project (e.g., commands for building and starting the server and client).
+
+5. **Project Architecture**:
+   - Description of the architecture (e.g., client-server structure).
+   - Diagram or flowchart explaining components and their interactions.
+
+6. **Core Functionality**:
+   - Overview of the main features implemented.
+   - Explanation of key functionalities (e.g., CRUD operations, threading, networking).
+
+7. **Code Overview**:
+   - Explanation of important classes and methods.
+   - Highlight key algorithms and their purpose.
+
+8. **Usage Guide**:
+   - Instructions on how users can interact with the application.
+   - Provide screenshots of the UI (if applicable).
+
+9. **Database Schema**:
+   - Diagram of the database schema and relationships.
+   - Explanation of tables and their purpose.
+
+10. **Error Handling**:
+    - List common errors or exceptions and how they are handled in the code.
+    - Provide troubleshooting tips for setup or runtime issues.
+
+11. **API Documentation** (if applicable):
+    - List endpoints, HTTP methods, parameters, and example responses.
+
+12. **Testing**:
+    - Explanation of how the application was tested (manual or automated).
+    - Describe any unit tests or integration tests performed.
+    - Include test case examples if applicable.
+
+13. **Conclusion**:
+    - Summary of the project, its challenges, and future improvement possibilities.
+
+14. **References**:
+    - List of any external libraries, frameworks, or resources used.
+    - Links to official documentation or tutorials.

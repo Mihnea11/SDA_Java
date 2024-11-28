@@ -1,0 +1,83 @@
+/* Root Styling */
+.register-root {
+    -fx-background-color: #121212; /* Dark Background */
+}
+
+/* Gray Background for Full Window */
+.register-container {
+    -fx-padding: 40;
+    -fx-background-color: #1e1e1e; /* Gray Background */
+    -fx-background-radius: 0; /* Fill the entire window */
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+/* Title Styling */
+.register-title {
+    -fx-font-size: 32px; /* Larger Title */
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-alignment: center;
+    -fx-padding: 0 20 20 20; /* Add bottom padding */
+}
+
+/* Form Container */
+.form-container {
+    -fx-spacing: 15;
+    -fx-alignment: center;
+}
+
+/* Input Fields */
+.text-field {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20; /* Margin on left and right */
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: #3c3c3c;
+    -fx-max-width: 400px; /* Limit width */
+    -fx-pref-width: 300px;
+}
+
+.text-field:focused {
+    -fx-border-color: #6200ea;
+}
+
+/* Error Box Styling */
+.error-box {
+    -fx-font-size: 12px;
+    -fx-text-fill: #ff5252; /* Red text for errors */
+    -fx-padding: 5 20;
+    -fx-max-width: 400px; /* Same width as input fields */
+    -fx-alignment: center;
+    -fx-wrap-text: true;
+}
+
+/* Buttons */
+.primary-button {
+    -fx-background-color: #6200ea;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+    -fx-max-width: 400px;
+}
+
+.primary-button:hover {
+    -fx-background-color: #3700b3;
+}
+
+/* Text and Hyperlink */
+.text-light {
+    -fx-text-fill: #a0a0a0;
+}
+
+.link {
+    -fx-text-fill: #bb86fc;
+}
+
+.link:hover {
+    -fx-text-fill: #ffffff;
+}
